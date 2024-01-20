@@ -1,0 +1,3 @@
+npm create next-app tailwind-next
+
+Lembrando que é preciso aceitar tailwind css entre os pacotes perguntados. Com "Yes" para todas as perguntas, principalmente a para usar Tailwind CSS.
