@@ -9,11 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // É melhor criar estas configurações por aqui do que valores arbitrários com [] nos estilos
+      maxWidth: {
+        app: '700px',
       },
+
+      colors: {
+        teste: '#333',
+      }
     },
   },
   plugins: [],

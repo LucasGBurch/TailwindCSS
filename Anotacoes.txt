@@ -6,3 +6,8 @@ EXTENSÕES IMPORTANTES PRA TER NO VSCODE PARA USAR TAILWIND:
 
 PostCSS Language Support
 Tailwind CSS IntelliSense
+
+Instalações para ESLint:
+
+npm i @rocketseat/eslint-config -D
+npm i prettier-plugin-tailwindcss -D
