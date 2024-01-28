@@ -13,6 +13,7 @@ const config: Config = {
       // É melhor criar estas configurações por aqui do que valores arbitrários com [] nos estilos
       gridTemplateColumns: {
         app: 'minmax(18rem, 20rem) 1fr',
+        profile: 'max-content 1fr min-content', // min-content = colunas que ocupam o mínimo possível; só a 1fr poderá crescer
       },
 
       maxWidth: {
