@@ -143,6 +143,7 @@ export default function Home() {
             </label>
             <FileInput.Root>
               <FileInput.Trigger />
+              <FileInput.FileList />
               <FileInput.Control multiple />
               {/* Esse multiple para seleção de arquivos só foi possível separando os ids dos inputs com a ContextAPI aplicada em Root e nos seus filhos, para que cada Input criado tenha seu próprio id. */}
             </FileInput.Root>
