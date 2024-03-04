@@ -16,7 +16,7 @@ export function Profile() {
           lucasburch@hotmail.com
         </span>
       </div>
-      <Button type="button" variant="ghost">
+      <Button variant="ghost" className="ml-auto">
         <LogOut className="h-5 w-5 text-zinc-500" />
       </Button>
     </div>
